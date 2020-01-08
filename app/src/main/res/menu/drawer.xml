@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/notes"
+            android:icon="@drawable/ic_action_notes"
+            android:title="@string/private_notes" />
+        <item
+            android:id="@+id/address"
+            android:icon="@drawable/ic_action_adddress"
+            android:title="@string/addresses" />
+        <item
+            android:id="@+id/cards"
+            android:icon="@drawable/ic_action_card"
+            android:title="@string/payment_cards" />
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_action_contact"
+            android:title="@string/contact_us" />
+
+    </group>
+
+
+</menu>

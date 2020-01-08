@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cream"
+    tools:context=".dataentry">
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="426dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/title"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="357dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/website_or_app_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etUserid"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="212dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etSitepass"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="text" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="178dp"
+        android:layout_height="176dp"
+        android:layout_above="@+id/etTitle"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="145dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginBottom="69dp"
+        android:background="@drawable/buttonback"
+        android:text="@string/save"
+        android:textColor="#2E2E30"
+        android:textColorLink="#E2D34B"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etLink"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="284dp"
+        android:ems="10"
+        android:hint="@string/url_if_any"
+        android:inputType="textEmailAddress"
+        android:autofillHints="" />
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:paddingVertical="40dp">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.DeviceDefault.TextView"
+        android:layout_width="383dp"
+        android:layout_height="116dp"
+        android:paddingHorizontal="0dp"
+        android:text="@string/passlock"
+        android:textAllCaps="false"
+        android:textColor="#F5F0F0"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>

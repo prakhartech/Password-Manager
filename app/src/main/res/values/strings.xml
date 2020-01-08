@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">PassLock</string>
+
+    <string name="username">Username</string>
+    <string name="login">LOGIN</string>
+    <string name="password">Password</string>
+    <string name="new_user_signup_here">New User?SignUp here!</string>
+    <string name="register">Register</string>
+    <string name="already_signed_in_login">Already Signed in?Login</string>
+    <string name="e_mail">E-mail</string>
+    <string name="full_name">Full Name</string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_home">home</string>
+    <string name="all_items">All items</string>
+    <string name="passwords">Passwords</string>
+    <string name="private_notes">Private notes</string>
+    <string name="addresses">Addresses</string>
+    <string name="payment_cards">Payment cards</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="log_out">Log Out</string>
+    <string name="passlock">PassLock</string>
+    <string name="under_construction">Under Construction</string>
+    <string name="todo">TODO</string>
+    <string name="mail_us_abcd_gmail_com">Mail us: abcd@gmail.com</string>
+    <string name="are_you_sure">Are You Sure?</string>
+    <string name="title">Title</string>
+    <string name="website_or_app_name">Website or App name</string>
+    <string name="url_if_any">URL if any</string>
+
+    <string name="save">SAVE</string>
+    <string name="add">ADD</string>
+    <string name="sample2">sample</string>
+    <string name="sample">sample</string>
+    <string name="saved_passwords">Saved Passwords</string>
+
+</resources>
